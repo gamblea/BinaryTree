@@ -8,8 +8,10 @@ struct Node {
         Node *right;
         Node *next;
         int val;
+	int size;
 	explicit Node(int val);
 	Node(const Node &other);
+	~Node();
 };
 
 #endif
