@@ -1,19 +1,12 @@
 #include <iostream>
 #include <cassert>
 
+#include "Node.h"
+
 using namespace std;
 
 //#include "addingneighbours.h"
 
-struct Node {
-	int val;
-	Node *left;
-	Node *right;
-	Node *next;
-
-	Node() : left{ nullptr }, right{ nullptr }, next{ nullptr }
-	{}
-};
 
 void connectNodes(Node *root);
 
